@@ -38,12 +38,15 @@ console.log('5. Adding 25 to supplyChanges.',supplyChanges);
 // }
 for (let i=0; i<supplyChanges.length; i++) {  
     console.log('for loop',supplyChanges [i]);
+    console.log('added', (supplyChanges[1],)'parts');
+    else if (supplyChanges[i]===0)
+    console.log('No change')
+    else if (supplyChanges[1]<0)
+    console.log('removed', (supplyChanges[i]), 'parts');
   }
   
   
   
-
-
 
 console.log('6. Showing supplyChanges...', supplyChanges);
 
